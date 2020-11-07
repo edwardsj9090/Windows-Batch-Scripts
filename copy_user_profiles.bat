@@ -1,7 +1,6 @@
 @echo off
 
-:: For loop that copies a text file to each user directory
+:: FOR loop that copies a file to each user directory
+:: Just replace the "\path\to\filename.ext" with the path to the actual file that you want to copy to each user
 
-for /D %%U in ("C:\Users\*") Do xcopy "C:\Users\Edwards\Desktop\test.txt" "%%U\" /Y
-echo.
-pause
+for /D %%U in ("C:\Users\*") Do xcopy "path\to\filename" "%%U\" /Y
