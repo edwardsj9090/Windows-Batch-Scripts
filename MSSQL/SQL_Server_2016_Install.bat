@@ -1,6 +1,6 @@
 @echo off
 
-:: 10.20.20 - James Edwards
+:: Created - 10.20.20
 
 echo.
 
